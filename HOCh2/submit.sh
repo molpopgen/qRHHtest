@@ -13,7 +13,7 @@ qsub -N case8 hoc.sh case8.h2.gz 0.01   0.1 0.25 8
 qsub -N case9  hoc.sh case9.h2.gz  0.0001 0.1 0.125 9
 qsub -N case10 hoc.sh case10.h2.gz 0.001  0.1 0.125 10
 qsub -N case11 hoc.sh case11.h2.gz 0.001  0.1 0.125 11
-qsub -N case12 hoc.sh case10.h2.gz 0.01   0.1 0.125 12
+qsub -N case12 hoc.sh case12.h2.gz 0.01   0.1 0.125 12
 
 qsub -N case13 hoc.sh case13.h2.gz 0.0001 0.25 0.5 1
 qsub -N case14 hoc.sh case14.h2.gz 0.001  0.25 0.5 2

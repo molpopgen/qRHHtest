@@ -10,4 +10,4 @@ module load krthornt/fwdpp/0.2.5
 
 cd $SGE_O_WORKDIR
 
-~/src/qRHH/src/qRHH_single -N 1000 -o $1 --theta 10 --rho 10 --mu $2 --nthreads $CORES --ngens 10000 --seed $RANDOM --sigE $3 --sigEsize $4 --H2 -R 4
+~/src/qRHH/src/qRHH_single -N 1000 --H2 $1 --theta 10 --rho 10 --mu $2 --nthreads $CORES --ngens 10000 --seed $RANDOM --sigE $3 --sigEsize $4 -R 4
